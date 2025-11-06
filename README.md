@@ -35,6 +35,11 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 - Improved analysis efficiency by enabling one-click access to specific protocols, hosts, or traffic types.  
 <img width="1591" height="124" alt="4" src="https://github.com/user-attachments/assets/dc291469-44d3-4dd2-829f-341f413e641f" />
 
+### Multi-Port Filtering
+- Used **multi-port filtering** to view network traffic across multiple ports simultaneously
+- Simplified packet analysis by isolating related protocols and services within a single filtered view.  
+
+<img width="1269" height="532" alt="5" src="https://github.com/user-attachments/assets/3c1a35f4-9be6-4827-ab44-90c456f33572" />
 
 
 
