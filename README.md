@@ -30,6 +30,11 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 - Enhanced traffic visibility by highlighting patterns, anomalies, and potential threats for faster analysis.  
 <img width="1550" height="806" alt="3" src="https://github.com/user-attachments/assets/62270015-668d-4561-a08d-9de81c5e494b" />
 
+### Filter Buttons
+- Added **custom filter buttons** in Wireshark to quickly apply common display filters.  
+- Improved analysis efficiency by enabling one-click access to specific protocols, hosts, or traffic types.  
+<img width="1591" height="124" alt="4" src="https://github.com/user-attachments/assets/dc291469-44d3-4dd2-829f-341f413e641f" />
+
 
 
 
