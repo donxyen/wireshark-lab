@@ -66,3 +66,15 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 - Observed a packet with a TTL value of 57, which indicates it’s approximately **8 router hops away** from the source (assuming an initial TTL of 65).
 - Used this to estimate network path distance and confirm normal routing behavior.
 
+### IP Fragmentation
+<img width="287" height="212" alt="Connected packet" src="https://github.com/user-attachments/assets/a544be28-2025-4012-bc44-12569376a5e2" />
+
+- Wireshark indicates visual packet fragmentation with the dot and the arrow to show that these packets belong together.
+
+ <img width="327" height="89" alt="more" src="https://github.com/user-attachments/assets/e95ebe51-b80b-4c4f-930f-4411ac21f04e" />
+ <img width="408" height="90" alt="nonr" src="https://github.com/user-attachments/assets/b3aaf3d0-f76f-40ed-b33c-4c6283dc65a3" />
+
+- Both packets share the same ID, to show they do belong together
+<img width="594" height="99" alt="share" src="https://github.com/user-attachments/assets/d5b16cae-670d-46c9-935a-e44e234ca39a" />
+
+ 
