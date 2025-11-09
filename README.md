@@ -103,7 +103,7 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 - **SYN → SYN-ACK → ACK** establishes a reliable connection; verify with TCP flags and increasing **Seq/Ack** numbers.
 - Capture shows client **SYN** with initial sequence (ISN) and options (MSS, Window Scale, SACK), server **SYN-ACK**, then client **ACK** finalizing the session before data flows.
 
-### TCP Flag
+### TCP Flags
 <img width="870" height="301" alt="555" src="https://github.com/user-attachments/assets/79b1a2c4-e1c3-4704-8213-1f8576b9483f" />
 
 - **SYN** — Start a connection (saw in initial handshake).  
@@ -114,10 +114,10 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 - **URG** — Urgent pointer valid (rare; signals urgent data).  
 - **ECE / CWR** — Explicit Congestion Notification flags used for congestion control signaling.
 
+### TCP Options
+<img width="846" height="263" alt="option" src="https://github.com/user-attachments/assets/381fcda1-e90f-4e18-8865-597cb916c0a5" />
 
-
-
-
+Analyzed TCP options in Wireshark, including **Maximum Segment Size (MSS)**, **Window Scale**, and **Selective Acknowledgment (SACK)**. These options optimize performance and reliability by improving data flow control and recovery during transmission.
 
 
 
