@@ -77,4 +77,19 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 - Both packets share the same ID, to show they do belong together
 <img width="594" height="99" alt="share" src="https://github.com/user-attachments/assets/d5b16cae-670d-46c9-935a-e44e234ca39a" />
 
- 
+ ## UDP Analysis
+ <img width="901" height="431" alt="23" src="https://github.com/user-attachments/assets/b9d8b1d2-7879-4140-a5b8-2f1840598454" />
+
+ - Captured and inspected UDP packets in Wireshark — noted its connectionless nature with minimal headers, making it ideal for fast, lightweight communication like DNS and streaming.
+
+### DHCP
+<img width="908" height="488" alt="dhcp" src="https://github.com/user-attachments/assets/a721cf5c-fa8f-4b43-93d1-c1dbae51a1db" />
+
+- Captured the full DHCP handshake in Wireshark — Discover, Offer, Request, and Acknowledge.  
+- Observed broadcasts on UDP ports **67 (server)** and **68 (client)**, confirming normal IP lease assignment behavior.
+
+
+
+
+
+
