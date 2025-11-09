@@ -41,9 +41,20 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 
 <img width="1269" height="532" alt="5" src="https://github.com/user-attachments/assets/3c1a35f4-9be6-4827-ab44-90c456f33572" />
 
+## Analayzing Packat Captures
 
+### Unicasts VS Broadcasts VS Multicasts
+<img width="885" height="678" alt="1" src="https://github.com/user-attachments/assets/c11975b7-4e12-4182-a3a5-941efe991e1c" />
 
+- **Unicast:** One-to-one communication between two MAC addresses.  
+  Switch forwards frames based on MAC address table; unknown destinations are flooded.
+- **Broadcast:** One-to-all communication (`FF:FF:FF:FF:FF:FF`).  
+  Common in **ARP requests** where a host announces, “Who has this IP?”
+- **Multicast:** One-to-many communication used by specific protocols (e.g., **STP**, **CDP**, **LLDP**).  
+  Wireshark identifies these as `IPv4mcast` frames.
 
+### Understanding IP Header
+<img width="906" height="895" alt="2" src="https://github.com/user-attachments/assets/9ded73ff-07e1-4d59-af33-e4c8c07da19f" />
 
-
+- Analyzed IPv4 header fields in Wireshark to understand how packets are structured and routed. Observed fields like TTL, protocol, and IP identification in live captures, and learned how checksum offloading to NICs can cause false errors during local captures.
 
