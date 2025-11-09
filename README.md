@@ -1,4 +1,4 @@
-# 🦈 Wireshark Lab
+# 🦈 Wireshark Network Analysis & Package Capture Lab
 
 <img width="1531" height="691" alt="x" src="https://github.com/user-attachments/assets/27f1d601-c7ac-4a7d-bd53-46a3feb0415b" />
 
