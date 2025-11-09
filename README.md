@@ -88,6 +88,14 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 - Captured the full DHCP handshake in Wireshark — Discover, Offer, Request, and Acknowledge.  
 - Observed broadcasts on UDP ports **67 (server)** and **68 (client)**, confirming normal IP lease assignment behavior.
 
+### DNS
+<img width="789" height="194" alt="dns" src="https://github.com/user-attachments/assets/89bc10a3-0d73-4da8-b3bd-96bd5c5548f1" />
+
+- Observed hostname-to-IP resolution and verified response times between client and DNS server.
+
+
+
+
 
 
 
