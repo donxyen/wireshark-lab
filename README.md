@@ -97,10 +97,31 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 <img width="973" height="943" alt="33" src="https://github.com/user-attachments/assets/dd65573a-f2a7-4a4b-b9b8-01c631913b53" />
 
 
-## TCP Handshake
+### TCP Handshake
 <img width="863" height="379" alt="4343" src="https://github.com/user-attachments/assets/174bfca9-e313-4ddc-96ff-efcc880c2997" />
 
 - **SYN → SYN-ACK → ACK** establishes a reliable connection; verify with TCP flags and increasing **Seq/Ack** numbers.
 - Capture shows client **SYN** with initial sequence (ISN) and options (MSS, Window Scale, SACK), server **SYN-ACK**, then client **ACK** finalizing the session before data flows.
+
+### TCP Flag
+<img width="870" height="301" alt="555" src="https://github.com/user-attachments/assets/79b1a2c4-e1c3-4704-8213-1f8576b9483f" />
+
+- **SYN** — Start a connection (saw in initial handshake).  
+- **ACK** — Acknowledges received bytes (present on most packets after handshake).  
+- **FIN** — Graceful close request (initiates connection termination).  
+- **RST** — Immediate abort/reset (connection error or refused).  
+- **PSH** — Push — asks receiver to deliver buffered data to the application ASAP.  
+- **URG** — Urgent pointer valid (rare; signals urgent data).  
+- **ECE / CWR** — Explicit Congestion Notification flags used for congestion control signaling.
+
+
+
+
+
+
+
+
+
+
 
 
