@@ -119,6 +119,15 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 
 Analyzed TCP options in Wireshark, including **Maximum Segment Size (MSS)**, **Window Scale**, and **Selective Acknowledgment (SACK)**. These options optimize performance and reliability by improving data flow control and recovery during transmission.
 
+### Sequences and Acknowledgement 
+<img width="448" height="142" alt="ack" src="https://github.com/user-attachments/assets/02dc51da-6ffd-4dac-b7a9-8b7384b0fb73" />
+
+- Observed TCP sequence and acknowledgment numbers in Wireshark to track reliable data flow.
+- Each byte is numbered, and acknowledgments confirm receipt, ensuring ordered and complete transmission across the network.
+
+
+
+
 
 
 
