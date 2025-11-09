@@ -93,11 +93,14 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 
 - Observed hostname-to-IP resolution and verified response times between client and DNS server.
 
+## TCP Analysis
+<img width="973" height="943" alt="33" src="https://github.com/user-attachments/assets/dd65573a-f2a7-4a4b-b9b8-01c631913b53" />
 
 
+## TCP Handshake
+<img width="863" height="379" alt="4343" src="https://github.com/user-attachments/assets/174bfca9-e313-4ddc-96ff-efcc880c2997" />
 
-
-
-
+- **SYN → SYN-ACK → ACK** establishes a reliable connection; verify with TCP flags and increasing **Seq/Ack** numbers.
+- Capture shows client **SYN** with initial sequence (ISN) and options (MSS, Window Scale, SACK), server **SYN-ACK**, then client **ACK** finalizing the session before data flows.
 
 
