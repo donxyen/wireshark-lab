@@ -58,3 +58,11 @@ This Wireshark Lab is to gain hands-on experience using **Wireshark** to capture
 
 - Analyzed IPv4 header fields in Wireshark to understand how packets are structured and routed. Observed fields like TTL, protocol, and IP identification in live captures, and learned how checksum offloading to NICs can cause false errors during local captures.
 
+## IP Analysis
+
+### TTL Field
+<img width="870" height="839" alt="3" src="https://github.com/user-attachments/assets/c006401b-ba98-46a4-b234-1431210fd553" />
+
+- Observed a packet with a TTL value of 57, which indicates it’s approximately **8 router hops away** from the source (assuming an initial TTL of 65).
+- Used this to estimate network path distance and confirm normal routing behavior.
+
